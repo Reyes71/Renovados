@@ -16,7 +16,7 @@ nav {
 
 nav ul li a {
   color: #cdcdcd;
-  font-size: 22px;
+  font-size: 28px;
   text-decoration: none;
 }
 
@@ -30,7 +30,7 @@ nav ul {
 }
 
 nav ul li {
-  padding: 20px;
+  padding: 18px;
 }
 
 /*Header*/
@@ -56,12 +56,14 @@ article{
  margin-top: 40px;
  margin-left: 6%;
  margin-right: 6%;
+ margin-bottom: 40px;
  padding: 25px;
  border-radius: 20px;
 }
 
 article h2 {
   font-size: 40px;
+  margin-bottom: 8px;
 }
 
 article p {
@@ -71,3 +73,13 @@ article p {
 article time {
   font-size: 16px;
 }
+
+article a {
+ text-decoration: none;
+ color: black;
+}
+
+article a:Hover {
+ border-bottom: 1px solid black;
+}
+
